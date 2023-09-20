@@ -1,7 +1,7 @@
 export function sumOfArray(num: number[]): number {
-  let arrSum: number = 0;
+  let arraySum: number = 0;
   for (let i = 0; i < num.length; i++) {
-    arrSum += num[i];
+    arraySum += num[i];
   }
-  return arrSum;
+  return arraySum;
 }
